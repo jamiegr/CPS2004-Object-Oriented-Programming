@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jamie/CLionProjects/OOPCPP/animals.h
+iostream
+-
+string
+-
+fstream
+-
+sstream
+-
+
+/home/jamie/CLionProjects/OOPCPP/bst.h
+iostream
+-
+string
+-
+fstream
+-
+sstream
+-
+
+/home/jamie/CLionProjects/OOPCPP/main.cpp
+iostream
+-
+string
+-
+fstream
+-
+sstream
+-
+iterator
+-
+vector
+-
+bst.h
+/home/jamie/CLionProjects/OOPCPP/bst.h
+animals.h
+/home/jamie/CLionProjects/OOPCPP/animals.h
+
